@@ -8,7 +8,7 @@ const userEmail = prompt("Inserire Email: ");
 //Lista Email Autorizzate
 const listEmail = ["sluiphav@googl.win", "peppino07@hotmail.com" ,"franco54@gmail.com", "luca24@live.com"];
 
-//Controllo email utente
+//Controllo email utente e OUTPUT
 let found = false;
 
 for(let i = 0; i < listEmail.length; i++){
